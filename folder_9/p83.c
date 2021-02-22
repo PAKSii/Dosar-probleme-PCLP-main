@@ -9,7 +9,7 @@ int main()
     n=strlen(s);
     for(i=0;i<n;i++)
     {
-        printf("%s\n",copie)
+        printf("%s\n",copie);
         copie[n-i-1]="\0";
     }
     for(i=0;i<n;i++)

@@ -14,7 +14,7 @@ int main()
             if(!strchr(voc,cuv[i]))
                 ok=0;
         if(ok)
-            pritf("%s",cuv);
+            printf("%s",cuv);
         p=strtok(NULL," ");
         }
     return 0;

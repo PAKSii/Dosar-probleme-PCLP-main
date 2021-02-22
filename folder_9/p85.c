@@ -8,7 +8,7 @@ int main()
 {
    char sir[100],voc[]="aeiou",litera[]="a";
    int i;
-  gets(s);
+  gets(sir);
     for(i=0;i<strlen(sir);i++)
         {
         if(strchr(voc,sir[i]))

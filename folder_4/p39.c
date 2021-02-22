@@ -3,7 +3,7 @@
 int main()
 {
     int n,m,i;
-    scanf("%d%d",&n,&m)
+    scanf("%d%d",&n,&m);
     i=m/n;
     printf("%d",i);
      return 0;

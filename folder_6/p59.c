@@ -12,7 +12,7 @@ int main()
         if(strchr(s2,s1[i]))
             ok=1;
         if(ok)
-            printf("%c",s[i]);
+            printf("%c",s1[i]);
     }
     return 0;
 }

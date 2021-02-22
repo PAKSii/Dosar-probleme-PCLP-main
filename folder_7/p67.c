@@ -22,7 +22,7 @@ int main()
   int max,min;
   long n;
   scanf("%l%d%d",&n,&max,&min);
-  cifmaxmin(l,max,min);
+  cifmaxmin(n,max,min);
   printf("%d %d",max,min);
   return 0;
 }

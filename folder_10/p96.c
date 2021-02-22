@@ -6,7 +6,7 @@ int main()
    char sir[10],voc[]="aeiouAEIOU";
    int aux,i,j;
    aux=0;
-   gets(s);
+   gets(sir);
    for(i=0;i<strlen(sir);i++)
     for(j=strlen(sir);j>0;j--)
     {if(strchr(voc,sir[i])&&!strchr(voc,sir[j]))
@@ -18,6 +18,6 @@ int main()
     break;
 
 }
-printf("%c %c ",s[i],s[j]);
+printf("%c %c ",sir[i],sir[j]);
         return 0;
 }
